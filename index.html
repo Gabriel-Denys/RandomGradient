@@ -1,0 +1,24 @@
+<html>
+    <head>
+ <meta name="viewport" content="initial-scale=1, width=device-width, height=device-height, viewport-fit=cover">
+<!--<meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">-->
+    <meta charset="UTF-8">
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+        <script src="gradients.js"></script>
+</head>
+    <body>
+        <script>
+           gradients.init({
+                hex:false,
+                array: true
+                }).then(fn => {
+                $("body").css("background","linear-gradient("+ gradients.color("Hello World") +")")
+           });
+            
+           
+        </script>
+    </body>
+</html>
