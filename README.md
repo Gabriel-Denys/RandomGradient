@@ -35,10 +35,10 @@ The gradients.init() has optional parameter that can be passed:
         });
  ```
 
-If `array` is `true` then gradients.color("your seed") returns an array object(so that you can easily separate the colors)
+If `array` is `true` then `gradients.color("your seed")` returns an array object(so that you can easily separate the colors)
 otherwise it's a string.
 
-If `hex` is `true` then gradients.color("your seed") returns the colours in hex formate otherwise it returns RGBA.
+If `hex` is `true` then `gradients.color("your seed")` returns the colours in hex formate otherwise it returns RGBA.
 
 `opacity` is just a value 0 to 1 for setting the opacity. If a partial opacity (decimal, not 1 or 0) is entered then he color is set to RGBA for obvious reasons.
 
