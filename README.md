@@ -1,5 +1,5 @@
 # RandomGradient
-This library allows easy generation of color gradients from a predefined JSON file. The colors work well on both white and dark backgrounds. Colour selection is based on a seed, the same seed will always return the same gradient. The gradients are a modified version gotten from [https://github.com/Ghosh/uiGradients] , so kudos to Indrashish Ghosh for making that great project
+This library allows easy generation of color gradients from a predefined JSON file. The colors work well on both white and dark backgrounds. Colour selection is based on a seed, the same seed will always return the same gradient. The gradients are a modified version gotten from https://github.com/Ghosh/uiGradients , so kudos to Indrashish Ghosh for making that great project
 
 ## Set-Up
 First make sure you have downloaded *gradients.js* and *gradients.json* and then include the JS file in your HEAD of your HTML file.
