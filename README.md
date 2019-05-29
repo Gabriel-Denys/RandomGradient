@@ -3,7 +3,9 @@ This library allows easy generation of color gradients from a predefined JSON fi
 
 ## Set-Up
 First make sure you have downloaded *gradients.js* and *gradients.json* and then include the JS file in your HEAD of your HTML file.
-```html <script src="gradients.js"></script>```
+```html 
+<script src="gradients.js"></script>
+```
 Make sure you also include jQuery before you include the *gradients.js*
 
 ## Usage
