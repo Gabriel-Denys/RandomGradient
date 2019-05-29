@@ -8,6 +8,8 @@ First make sure you have downloaded *gradients.js* and *gradients.json* and then
 ```
 Make sure you also include jQuery before you include the *gradients.js*
 
+You could replace `gradients.json` with the latest one from uiGradients if you wish, however I have checked most of these to work on white and dark backgrounds.
+
 ## Usage
 Initialize the gradient and run some code to use the generated colour like so:
 
