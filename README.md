@@ -40,8 +40,8 @@ If `hex` is `true` then gradients.color("your seed") returns the colours in hex 
 
 `opacity` is just a value 0 to 1 for setting the opacity. If a partial opacity (decimal, not 1 or 0) is entered then he color is set to RGBA for obvious reasons.
 
-#Notes
+# Notes
 I made this while making an app for a different project and have seen some people look for something like this so I thought I'll release it. There are probably better ways of implementing it - so any help is appreciated, maybe some extra features? 
 
-#LICENSE
+# LICENSE
 It's MIT, you can check in the files for the full license.
