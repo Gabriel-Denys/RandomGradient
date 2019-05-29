@@ -9,10 +9,10 @@ Make sure you also include jQuery before you include the *gradients.js*
 ## Usage
 Initialize the gradient and run some code to use the generated colour like so:
 
-  `   gradients.init().then(fn => {
+    gradients.init().then(fn => {
             //Replace the below line with your own code
             $("body").css("background", "linear-gradient(" + gradients.color("Hello World") + ")")
-        });`
+        });
         
 The gradients.init() loads the *gradients.json* file and returns a promise, when the file is loaded the background is set to a linear gradient.
 
