@@ -20,17 +20,18 @@ Initialize the gradient and run some code to use the generated colour like so:
 
 The gradients.init() loads the *gradients.json* file and returns a promise, when the file is loaded the background is set to a linear gradient.
 
-`gradients.color()` requires a string seed and has an optional opacity parameter, should you wish to set it dynamically.
+`gradients.color()` requires a string seed and has an optional opacity parameter, should you wish to set it dynamically. This function doesn't have to be ran inside the `init().then(fn =>......` but you just need to make sure that the JSON is actually loaded, you could check for an event or just wait some time - it takes roughly 1ms to load it. If you dont need to set colors immediately on load, then it would be enough to simply `gradients.init()` on load and then just use `gradients.color("seed")` when needed
 
 The gradients.init() has optional parameter that can be passed:
-
-  `  gradients.init({
+```javascript
+    gradients.init({
             hex: false,
             array: true, 
             opacity: 1
         }).then(fn => {
             //YOUR CODE
-        });`
+        });
+ ```
 
 If `array` is `true` then gradients.color("your seed") returns an array object(so that you can easily separate the colors)
 otherwise it's a string.
@@ -38,3 +39,9 @@ otherwise it's a string.
 If `hex` is `true` then gradients.color("your seed") returns the colours in hex formate otherwise it returns RGBA.
 
 `opacity` is just a value 0 to 1 for setting the opacity. If a partial opacity (decimal, not 1 or 0) is entered then he color is set to RGBA for obvious reasons.
+
+#Notes
+I made this while making an app for a different project and have seen some people look for something like this so I thought I'll release it. There are probably better ways of implementing it - so any help is appreciated, maybe some extra features? 
+
+#LICENSE
+It's MIT, you can check in the files for the full license.
