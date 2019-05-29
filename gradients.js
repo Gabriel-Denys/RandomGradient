@@ -51,7 +51,7 @@ var gradients = {
         }
 
         return new Promise(function (resolve, reject) {
-            if (event) {
+          
                 $.getJSON('gradients.json', function (data) {
                     file = data;
                     window.dispatchEvent(event);
@@ -62,7 +62,7 @@ var gradients = {
                 })
 
 
-            }
+          
         })
         /*
         options.hex if true then enables hex output, else rgba
